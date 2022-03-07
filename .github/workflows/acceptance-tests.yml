@@ -13,7 +13,7 @@ jobs:
       id: go
 
     - name: Check out code repository source code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Start Gitlab
       run: make testacc-up
@@ -33,7 +33,7 @@ jobs:
       id: go
 
     - name: Check out code repository source code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Enterprise Edition License file
       run: |
